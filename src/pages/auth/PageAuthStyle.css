@@ -1,0 +1,29 @@
+
+.MenuHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    border: 1px solid black;
+    background: #F4CE14;
+    border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  gap: 2rem;
+}
+
+.MenuService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background: #495E57;
+    
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+.MenuAbout {
+    display: flex;
+    justify-content: center;
+    background-color: #45474B;
+    color: white;
+}
