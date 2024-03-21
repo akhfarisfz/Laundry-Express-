@@ -1,8 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Laundry Express
 
-Currently, two official plugins are available:
+Laundry Express is a full-stack web and mobile application developed using the MERN stack (MongoDB, Express.js, React, and React Native). The application is designed to streamline the management of laundry orders from customers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Order Management**: Easily add and manage laundry orders from customers.
+- **Payment Receipts**: Generate payment receipts for completed orders.
+
+## Technologies Used
+
+- **Frontend**: React.js for the web application and React Native for the mobile application.
+- **Backend**: Express.js for the server-side application.
+- **Database**: MongoDB for storing order and transaction data.
+
+## Getting Started
+
+To get started with Laundry Express locally, follow these steps:
+
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Run the development server using `npm start`.
+
+
