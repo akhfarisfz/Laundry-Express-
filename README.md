@@ -24,5 +24,5 @@ To get started with Laundry Express locally, follow these steps:
 4. Run the development server using `npm start`.
 
 ##Preview
-Preview the project [here]([https://www.linkedin.com/posts/akh-faris-farhan-z_saya-baru-saja-menyelesaikan-proyek-sederhan-activity-7175005486050672640-SQdt/?utm_source=share&utm_medium=member_desktop])
+Preview the project [here](https://www.linkedin.com/posts/akh-faris-farhan-z_saya-baru-saja-menyelesaikan-proyek-sederhan-activity-7175005486050672640-SQdt/?utm_source=share&utm_medium=member_desktop)
 
