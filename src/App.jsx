@@ -17,7 +17,6 @@ import PageTerimaAmbil from "./pages/terima/PageTerimaAmbil.jsx";
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(true);
-
   return (
     <>
       <ContextApplication.Provider value={{isAuthenticated, setIsAuthenticated}}>

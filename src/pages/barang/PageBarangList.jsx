@@ -88,7 +88,7 @@ const PageBarangList = () => {
                 {daftarBarang.map((value) => (
                   <tr key={value._id}>
                     <td>
-                      <Link to={`/detail/${value._id}`} className={"text-decoration-none"}>{value._id}</Link>
+                      <Link to={`/detail/${value._id}`} className={"text-decoration-black"}>{value._id}</Link>
                     </td>
                     <td>{value.nama}</td>
                     <td>{value.created}</td>

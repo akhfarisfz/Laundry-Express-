@@ -20,7 +20,7 @@ const LibComponentNavbar = () => {
   }
 
   return (
-    <Navbar expand="lg" className="d-print-none" style={{backgroundColor: '#E8C872' }}>
+    <Navbar expand="lg" className="d-print-none" style={{backgroundColor: '#F5F7F8' }}>
       <Container>
         <Navbar.Brand href="#">
         <img
@@ -30,7 +30,7 @@ const LibComponentNavbar = () => {
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
-        Laundry Management System</Navbar.Brand>
+        Laundry Express Admin</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         {applcation.isAuthenticated && (
           <Navbar.Collapse id="basic-navbar-nav">

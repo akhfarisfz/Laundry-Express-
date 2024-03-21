@@ -1,0 +1,111 @@
+.container{
+    width: 100%;
+}
+.MenuHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.MenuService {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background:#497538;
+    margin-bottom: 4rem;
+    overflow-x: hidden;
+
+}
+
+.MenuAbout {
+    display: flex;
+    overflow-x: hidden;
+
+    justify-content: center;
+    background-color: #45474B;
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: #E1FA7C;
+    margin-bottom: 3rem;
+}
+.judulAboutUs{
+    color: white;
+    margin: 3rem 0rem 3rem 0rem;
+}
+Col {
+    width: 100vh;
+}
+.social-links{
+    display: flex;
+    gap: 1rem;
+    overflow-x: hidden;
+
+}
+.footer{
+    margin: 3rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.imageService{
+    width: 100%;
+}
+/* Tata letak untuk lebar layar kecil */
+@media (max-width: 768px) {
+    .MenuHome,
+    .MenuService,
+    .MenuAbout {
+      margin-bottom: 2rem;
+    }
+  
+    .MenuService {
+      height: auto;
+    }
+  
+    .Col {
+      width: 100%;
+    }
+  
+    .social-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: center;
+    }
+  
+    .footer {
+      margin: auto;
+    }
+    .imageService{
+        width: 50%;
+    }
+  }
+  
+  /* Tata letak untuk lebar layar sedang */
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .MenuHome,
+    .MenuService,
+    .MenuAbout {
+      margin-bottom: 3rem;
+    }
+  }
+  
+  /* Tata letak untuk lebar layar besar */
+  @media (min-width: 1201px) {
+    .MenuHome,
+    .MenuService,
+    .footer{
+        margin: auto;
+    }
+  }
+  
